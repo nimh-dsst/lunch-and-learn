@@ -1,0 +1,9 @@
+ipython
+flake8
+mypy
+isort
+black
+pip-tools
+watchdog
+
+-r ./requirements.in
