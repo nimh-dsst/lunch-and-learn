@@ -216,6 +216,7 @@ numpy==2.1.2
     #   numcodecs
     #   nwbinspector
     #   pandas
+    #   pandas-stubs
     #   pyarrow
     #   pydeck
     #   pynwb
@@ -239,6 +240,8 @@ pandas==2.2.3
     #   hdmf
     #   pynwb
     #   streamlit
+pandas-stubs==2.2.3.241009
+    # via -r dev.in
 parso==0.8.4
     # via jedi
 pathspec==0.12.1
@@ -375,6 +378,8 @@ traitlets==5.14.3
     #   matplotlib-inline
 types-python-dateutil==2.9.0.20241003
     # via arrow
+types-pytz==2024.2.0.20241003
+    # via pandas-stubs
 typing-extensions==4.12.2
     # via
     #   altair
