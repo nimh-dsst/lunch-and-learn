@@ -3,7 +3,7 @@ import streamlit as st
 from dandi.dandiapi import DandiAPIClient  # type: ignore
 from pydantic_core import ValidationError
 
-st.title("Dandi Dataset API Explorer")
+st.title("Dandi Dataset API Explorer!!!!")
 st.write(
     "This app uses the DANDI API to get"
     + " information on dandisets :brain: :tophat:"
