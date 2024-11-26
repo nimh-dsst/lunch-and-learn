@@ -1,5 +1,9 @@
 # Streamlit DANDI API Dashboard Demo
 
+## Presenter: Josh Lawrimore <josh.lawrimore@nih.gov>
+
+## 10/22/2024
+
 This repository contains a bare-bones demonstration of how [Streamlit](https://streamlit.io/) can be used to create an interactive dashboard using the [DANDI](https://dandiarchive.org/) (Distributed Archives for Neurophysiology Data Integration) brain archive API. The demo showcases data visualizations and insights not readily available on the DANDI website.
 
 ## Table of Contents
