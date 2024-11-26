@@ -1,8 +1,8 @@
-# Interactive Development Environments (IDEs) Discussion
+# Integrated Development Environments (IDEs) Discussion
 
-## IDEs used by Data Science and Sharing Team and Friends
+## IDEs used by Data Science & Sharing Team and Friends
 
-* [VS Code](https://code.visualstudio.com/)
+* [Visual Studio Code (a.k.a. V.S. Code)](https://code.visualstudio.com/)
 * [PyCharm](https://www.jetbrains.com/pycharm/). There is a free Community Edition and a Professional Edition. Scroll down for Community Edition on the [downloads page](https://www.jetbrains.com/pycharm/download/). Also see definition of [Dark Pattern](https://en.wikipedia.org/wiki/Dark_pattern) in web design.
 * [Spyder](https://www.spyder-ide.org/)
 * [Cursor](https://www.cursor.com/)
@@ -29,7 +29,11 @@ Most IDEs offer GUI interfaces for common git actions. However, some users prefe
   * [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
   * [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). Requires a paid subscription.
   * [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat). Requires a paid subscription.
-
+  * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) for all your something-separated-value file needs.
+  * [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) for developing over SSH on different machines.
+  
+An interesting point of discusssion was raised about whether or not users preferred to see the data. Spyder comes with a variable explorer panel. Jupyter notebooks facilitate pandas DataFrame visualizations and plotting. For Data Science and Analytics tasks, sometimes a facilitated view into the data can be helpful. Sometimes it is helpful to be able to traverse tabular data in Excel.
+  
 ### Do you need to see the data?
 
 An interesting point of discusssion was raised about whether or not users preferred to see the data. Spyder comes with a variable explorer panel. Jupyter notebooks facilitate pandas DataFrame visualizations and plotting. For Data Science and Analytics tasks, sometime a faciliated view into the data can be helpful. Sometimes it is helpful to be able to traverse tabular data in Excel.
