@@ -6,10 +6,11 @@
 #
 aiobotocore==2.15.2
     # via s3fs
-aiohappyeyeballs==2.4.3
+aiohappyeyeballs==2.4.4
     # via aiohttp
-aiohttp==3.10.10
+aiohttp==3.11.10
     # via
+    #   -r requirements.in
     #   aiobotocore
     #   nwbinspector
     #   s3fs
@@ -17,7 +18,7 @@ aioitertools==0.12.0
     # via aiobotocore
 aiosignal==1.3.1
     # via aiohttp
-altair==5.4.1
+altair==5.5.0
     # via streamlit
 annotated-types==0.7.0
     # via pydantic
@@ -36,7 +37,7 @@ bidsschematools==0.7.2
     # via dandi
 blessed==1.20.0
     # via pyout
-blinker==1.8.2
+blinker==1.9.0
     # via streamlit
 botocore==1.35.36
     # via aiobotocore
@@ -58,11 +59,11 @@ click==8.1.7
     #   zarr-checksum
 click-didyoumean==0.3.1
     # via dandi
-contourpy==1.3.0
+contourpy==1.3.1
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
-dandi==0.63.1
+dandi==0.66.1
     # via -r requirements.in
 dandischema==0.10.4
     # via dandi
@@ -76,17 +77,17 @@ fasteners==0.19
     # via
     #   dandi
     #   zarr
-fonttools==4.54.1
+fonttools==4.55.3
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
-frozenlist==1.4.1
+frozenlist==1.5.0
     # via
     #   aiohttp
     #   aiosignal
-fscacher==0.4.1
+fscacher==0.4.3
     # via dandi
-fsspec==2024.9.0
+fsspec==2024.10.0
     # via
     #   nwbinspector
     #   s3fs
@@ -101,7 +102,10 @@ h5py==3.12.1
 hdmf==3.14.5
     # via
     #   dandi
+    #   hdmf-zarr
     #   pynwb
+hdmf-zarr==0.9.0
+    # via nwbinspector
 humanize==4.11.0
     # via dandi
 idna==3.10
@@ -112,7 +116,7 @@ idna==3.10
     #   yarl
 importlib-metadata==8.5.0
     # via keyring
-interleave==0.2.1
+interleave==0.2.2
     # via dandi
 isodate==0.7.2
     # via nwbinspector
@@ -149,7 +153,7 @@ jsonschema[format]==4.23.0
     #   pyout
 jsonschema-specifications==2024.10.1
     # via jsonschema
-keyring==25.4.1
+keyring==25.5.0
     # via dandi
 keyrings-alt==5.0.2
     # via dandi
@@ -157,9 +161,9 @@ kiwisolver==1.4.7
     # via matplotlib
 markdown-it-py==3.0.0
     # via rich
-markupsafe==3.0.1
+markupsafe==3.0.2
     # via jinja2
-matplotlib==3.9.2
+matplotlib==3.9.3
     # via -r requirements.in
 mdurl==0.1.2
     # via markdown-it-py
@@ -171,30 +175,31 @@ multidict==6.1.0
     # via
     #   aiohttp
     #   yarl
-narwhals==1.9.3
+narwhals==1.17.0
     # via altair
 natsort==8.4.0
     # via nwbinspector
-numcodecs==0.13.1
-    # via zarr
-numpy==2.1.2
+numcodecs==0.14.1
+    # via
+    #   hdmf-zarr
+    #   zarr
+numpy==2.2.0
     # via
     #   contourpy
     #   h5py
     #   hdmf
+    #   hdmf-zarr
     #   matplotlib
     #   numcodecs
-    #   nwbinspector
     #   pandas
-    #   pyarrow
     #   pydeck
     #   pynwb
     #   scipy
     #   streamlit
     #   zarr
-nwbinspector==0.4.37
+nwbinspector==0.6.1
     # via dandi
-packaging==24.1
+packaging==24.2
     # via
     #   altair
     #   dandi
@@ -207,7 +212,7 @@ pandas==2.2.3
     #   hdmf
     #   pynwb
     #   streamlit
-pillow==10.4.0
+pillow==11.0.0
     # via
     #   matplotlib
     #   streamlit
@@ -215,31 +220,34 @@ platformdirs==4.3.6
     # via
     #   dandi
     #   fscacher
-propcache==0.2.0
-    # via yarl
-protobuf==5.28.2
+propcache==0.2.1
+    # via
+    #   aiohttp
+    #   yarl
+protobuf==5.29.1
     # via streamlit
-pyarrow==17.0.0
+pyarrow==18.1.0
     # via streamlit
 pycryptodomex==3.21.0
     # via dandi
-pydantic[email]==2.9.2
+pydantic[email]==2.10.3
     # via
     #   dandi
     #   dandischema
-pydantic-core==2.23.4
+pydantic-core==2.27.1
     # via pydantic
 pydeck==0.9.1
     # via streamlit
 pygments==2.18.0
     # via rich
-pynwb==2.8.2
+pynwb==2.8.3
     # via
     #   dandi
+    #   hdmf-zarr
     #   nwbinspector
 pyout==0.7.3
     # via dandi
-pyparsing==3.1.4
+pyparsing==3.2.0
     # via matplotlib
 python-dateutil==2.9.0.post0
     # via
@@ -270,9 +278,9 @@ rfc3339-validator==0.1.4
     # via jsonschema
 rfc3987==1.3.8
     # via jsonschema
-rich==13.9.2
+rich==13.9.4
     # via streamlit
-rpds-py==0.20.0
+rpds-py==0.22.3
     # via
     #   jsonschema
     #   referencing
@@ -280,36 +288,38 @@ ruamel-yaml==0.18.6
     # via
     #   dandi
     #   hdmf
-ruamel-yaml-clib==0.2.8
+ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
-s3fs==2024.9.0
+s3fs==2024.10.0
     # via nwbinspector
 scipy==1.14.1
     # via hdmf
 semantic-version==2.10.0
     # via dandi
-six==1.16.0
+six==1.17.0
     # via
     #   blessed
     #   python-dateutil
     #   rfc3339-validator
 smmap==5.0.1
     # via gitdb
-streamlit==1.39.0
+streamlit==1.41.0
     # via -r requirements.in
 tenacity==9.0.0
     # via
     #   dandi
     #   streamlit
+threadpoolctl==3.5.0
+    # via hdmf-zarr
 toml==0.10.2
     # via streamlit
-tornado==6.4.1
+tornado==6.4.2
     # via streamlit
-tqdm==4.66.5
+tqdm==4.67.1
     # via
     #   nwbinspector
     #   zarr-checksum
-types-python-dateutil==2.9.0.20241003
+types-python-dateutil==2.9.0.20241206
     # via arrow
 typing-extensions==4.12.2
     # via
@@ -324,22 +334,25 @@ uri-template==1.3.0
 urllib3==2.2.3
     # via
     #   botocore
+    #   dandi
     #   requests
 wcwidth==0.2.13
     # via blessed
-webcolors==24.8.0
+webcolors==24.11.1
     # via jsonschema
-wrapt==1.16.0
+wrapt==1.17.0
     # via aiobotocore
-yarl==1.14.0
+yarl==1.18.3
     # via
     #   aiohttp
     #   dandi
 zarr==2.18.3
-    # via dandi
+    # via
+    #   dandi
+    #   hdmf-zarr
 zarr-checksum==0.4.2
     # via
     #   dandi
     #   dandischema
-zipp==3.20.2
+zipp==3.21.0
     # via importlib-metadata
