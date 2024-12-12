@@ -36,7 +36,7 @@ jobs:
         # Use GitHub Actions secret for authentication
         GITHUB_TOKEN: ${{ secrets.SYNC_README_TOKEN }}
       run: |
-        python - << EOF
+        ```python
 import os
 from github import Github
 from github.GithubException import UnknownObjectException
