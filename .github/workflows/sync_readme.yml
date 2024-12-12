@@ -36,8 +36,8 @@ jobs:
     
     # Run the sync script
     - name: Sync README
-      env:
-        # Use GitHub Actions secret for authentication
-        GITHUB_TOKEN: ${{ secrets.SYNC_README_TOKEN }}
+      # env: 
+      #   # Use GitHub Actions secret for authentication
+      #   GITHUB_TOKEN: ${{ secrets.SYNC_README_TOKEN }}
       run: |
         python sync_readme.py
