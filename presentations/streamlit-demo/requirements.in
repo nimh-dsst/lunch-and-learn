@@ -1,3 +1,4 @@
 streamlit
 dandi
 matplotlib
+aiohttp>=3.10.11
