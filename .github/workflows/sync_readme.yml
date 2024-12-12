@@ -59,7 +59,7 @@ def sync_readme(org_name, repo_a_name, repo_b_name, target_subdir):
             print(f"No README.md found in {repo_a_name}")
             return
         
-        target_path = f"{target_subdir}/README.md"
+        target_path = f"{target_subdir}/lunch-and-learn.md"
         
         try:
             existing_readme = repo_b.get_contents(target_path)
@@ -83,9 +83,9 @@ def sync_readme(org_name, repo_a_name, repo_b_name, target_subdir):
 
 # Replace these with your specific repository details
 sync_readme(
-    org_name="your-organization", 
-    repo_a_name="source-repo", 
-    repo_b_name="destination-repo", 
+    org_name="nimh-dsst", 
+    repo_a_name="lunch-and-learn", 
+    repo_b_name="dsst-rtd", 
     target_subdir="docs"
 )
 EOF
