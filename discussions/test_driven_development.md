@@ -36,3 +36,13 @@ VS code has built in testing integration for both `unittest` and `pytest` when y
 ### GitHub Actions
 
 Want to ensure that code updates don't break your codebase? Consider using [GitHub Actions](https://docs.github.com/en/actions) to automatically test your code. GitHub actions defines how compute nodes, called runners, test your code. GitHub-hosted runners are free but do have some RAM and storage limits. See [Supported runners and hardward resources](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources) for more information.
+
+### Getting Test Data
+
+#### Sythetic data: Fake it to make it
+
+What do you do if your data is either too big or private for public hosting using GitHub Actions? Make fake data! For example, lets say you are working with a large fluorescence image stack that is supposed to perform three dimensional segementation. Make a smaller NumPy array during testing with a known number of objects and test your code on the smaller dataset.
+
+#### Existing Public Data
+
+Don't want to generate your own data? Borrow data from a public hosted repository! Public data repositories like the [Dandi Archive](https://dandiarchive.org/) and [OpenNeuro](https://openneuro.org/) have data that is open to the public.
