@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions: write-all
+    environment: Deploy Sync
 
     steps:
     # Checkout the repository
