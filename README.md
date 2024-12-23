@@ -10,6 +10,8 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ### Website Automation Tools
 
+#### 12/17/2024
+
 DSST and friends discussed tools for generating and hosting static web pages. Challenges and potential solutions for large file hosting on static pages were discussed. While we didn't arrive at a definitive solution, various tools and strategies were proposed.
 
 ### Test Driven Development
