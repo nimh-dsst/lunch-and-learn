@@ -28,7 +28,7 @@ Note, while many end users are permitted to install Python, they may not be perm
 
 ### Setup complexity
 
-While a containerized application is easy to use, setting up the container can be complex depending on the system. For example, if the system does not have Docker or Singularity installed, then the user will need to install it. This can be a barrier to entry for some users lacking the expertise in containerization or Docker/Singularity may not allowed by the system administrator.
+While a containerized application is easy to use, setting up the container can be complex depending on the system. For example, if the system does not have Docker or Singularity installed, then the user will need to install it. This can be a barrier to entry for some users lacking the expertise in containerization. Or Docker/Singularity may not be allowed by the system administrator.
 
 Projects with multiple languages or custom binaries may have different setups based on the operating system. Conda is a good choice for this purpose, as it can be used to create an environment with the necessary dependencies to run the package. Less sophisticated tools like UV and pip will require setup of the other languages or binaries by the end users.
 
