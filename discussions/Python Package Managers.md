@@ -35,7 +35,7 @@ Projects with multiple languages or custom binaries may have different setups ba
 ### Best Practices
 
 - Always use virtual environments, regardless of the package manager chosen
-- Document your environment setup (e.g., environment.yml for conda, requirements.txt for pip)
+- Document your environment setup (e.g., `environment.yml` for conda, `requirements.txt` for `pip`)
 - Avoid mixing package managers within the same environment (especially conda and pip)
 - Pin dependencies to specific versions for reproducibility
 - Consider using lockfiles (poetry.lock, conda-lock, pip-compile) for deterministic builds
