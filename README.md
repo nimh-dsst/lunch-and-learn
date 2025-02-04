@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### Python Package Managers
+
+#### 2/4/2025
+
+DSST and friends discussed the pros and cons of the various Python package managers and dependency managers available.
+
 ### Website Automation Tools
 
 #### 12/17/2024
