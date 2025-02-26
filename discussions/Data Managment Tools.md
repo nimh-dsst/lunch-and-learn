@@ -35,5 +35,5 @@ A few attendees shared their experiences with data managment tools:
 - Syncing a large number of files between local and cloud storage with OneDrive has significant performance issues.
 - Beware using free cloud storage services for long term data storage. You don't own the data storage and it can be deleted by the service provider.
 - [Iron Mountain](https://www.ironmountain.com/) is a good option for long term data storage. They primarily use magnetic tape storage.
-- One group's data storage stratgy is to have a Linux data server. Each Post-Doc gets their own directory. Any Post-Bac trainees data goes in the Post-Doc's directory too. Tertiary storage was google cloud at one point, but was not found to be cost effective.
+- One group's data storage strategy is to have a Linux data server. Each Post-Doc gets their own directory. Any Post-Bac trainees data goes in the Post-Doc's directory too. Tertiary storage was google cloud at one point, but was not found to be cost effective.
 - The new solid state drives degrade over time and are not suitable for archival storage.
