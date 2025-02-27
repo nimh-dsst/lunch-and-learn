@@ -14,6 +14,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 DSST and friends discussed various experiences, resources, and strategies for both teaching and learning data science and programming topics.
 
+### Data Management Tools
+
+#### 2/11/2025
+
+DSST and friends discussed the tools and strategies they use for data management.
+
 ### Python Package Managers
 
 #### 2/4/2025
