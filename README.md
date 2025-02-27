@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### Data Management Tools
+
+#### 2/11/2025
+
+DSST and friends discussed the tools and strategies they use for data management.
+
 ### Python Package Managers
 
 #### 2/4/2025
