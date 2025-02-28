@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [Teaching and Learning Data Science](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/teaching_and_learning.md)
+
+#### 2/25/2025, attendance: 4
+
+DSST and friends discussed various experiences, resources, and strategies for both teaching and learning data science and programming topics.
+
 ### Data Management Tools
 
 #### 2/11/2025
