@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Data science and programming can be hard. The data scientists and research software engineers in attendance discussed their best ways to learn and teach data science topics to others. Programming language syntax is relatively easy to learn, but programming concepts themselves like flow control, logic, data structures, common solutions, and engineering principles are harder.
+Data science and programming can be hard. The data scientists and research software engineers in attendance discussed their best ways to learn and teach data science topics to others. It was also discussed how programming language syntax is relatively easy to learn these days and with AI coding assistance, but programming concepts themselves like flow control, logic, data structures, common solutions, and engineering principles are harder.
 
 ## Learning Data Science
 
