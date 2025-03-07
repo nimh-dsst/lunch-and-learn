@@ -14,37 +14,37 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 DSST and friends discussed various experiences, resources, and strategies for both teaching and learning data science and programming topics.
 
-### Data Management Tools
+### [Data Management Tools](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Data_Managment_Tools.md)
 
 #### 2/11/2025
 
 DSST and friends discussed the tools and strategies they use for data management.
 
-### Python Package Managers
+### [Python Package Managers](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Python_Package_Managers.md)
 
 #### 2/4/2025
 
 DSST and friends discussed the pros and cons of the various Python package managers and dependency managers available.
 
-### Website Automation Tools
+### [Website Automation Tools](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Website_Automation_Tools.md)
 
 #### 12/17/2024
 
 DSST and friends discussed tools for generating and hosting static web pages. Challenges and potential solutions for large file hosting on static pages were discussed. While we didn't arrive at a definitive solution, various tools and strategies were proposed.
 
-### Test Driven Development
+### [Test Driven Development](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/test_driven_development.md)
 
 #### 12/10/2024
 
 DSST and friends discussed the challenges and tools of test driven development for NIH research.
 
-### Aliases
+### [Aliases](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/aliases.md)
 
 #### 12/3/2024
 
 DSST and friends discussed aliases commonly used in shell RC files when using biowulf and other servers.
 
-### IDEs
+### [IDEs](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/IDEs.md)
 
 #### 11/26/2024
 
@@ -52,7 +52,7 @@ DSST and friends discussed which IDEs were commonly used. Other topics included 
 
 ## Presentations
 
-### Streamlit Demo
+### [Streamlit Demo](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/streamlit-demo)
 
 #### 10/22/2024
 
