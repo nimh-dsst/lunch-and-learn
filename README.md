@@ -8,7 +8,7 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
-### [Big SLURM Jobs](./discussions/SLURM_jobs.md)
+### [Big SLURM Jobs](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/SLURM_jobs.md)
 
 DSST and friends discussed tips and tricks to designing, running, and monitoring big SLURM jobs.
 
