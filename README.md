@@ -58,6 +58,12 @@ DSST and friends discussed which IDEs were commonly used. Other topics included 
 
 ## Presentations
 
+### [Building an Natural Language Query Agent](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/Natural_Language_Query_Agent)
+
+Demonstration of building a Natural Language Query Agent using [DuckDB](https://duckdb.org/), [LangGraph](https://langchain-ai.github.io/langgraph/), [Instructor](https://python.useinstructor.com/), [Pydantic Models](https://docs.pydantic.dev/latest/) and [OpenAI Model API](https://platform.openai.com/docs/models). Presentation by Joshua Jacobs, PhD and Travis Richardson.
+
+#### 4/8/2025, attendance: 10
+
 ### [Streamlit Demo](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/streamlit-demo)
 
 #### 10/22/2024
