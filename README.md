@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [Code Debugging](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Code_Debugging.md)
+
+DSST and friends discussed tips and tricks on debugging analysis code and pipelines.
+
+#### 4/15/2025, attendance: 5
+
 ### [Big SLURM Jobs](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/SLURM_jobs.md)
 
 DSST and friends discussed tips and tricks to designing, running, and monitoring big SLURM jobs.
