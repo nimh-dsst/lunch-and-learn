@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [MRI Crash Course, Part 1](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_1.md)
+
+DSST provide a crash course into MRI. In this part, we cover how an MRI signal is generated and spatially encoded.
+
+#### 4/22/2025, attendance: 10
+
 ### [Code Debugging](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Code_Debugging.md)
 
 DSST and friends discussed tips and tricks on debugging analysis code and pipelines.
