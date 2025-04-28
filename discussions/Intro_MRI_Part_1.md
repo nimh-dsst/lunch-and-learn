@@ -26,7 +26,7 @@ In order to generate a measurable signal from the subject's aligned protons, the
 
 ### Relaxing protons
 
-When the transmit radiofrequency coil is turned off, the protons will realign back to the static B<sub>0</sub> field in a process called "relaxation." During relaxation, protons emit some of the energy that was applied to them during the B<sub>1</sub> field pulse in the form of radio waves. These are picked up by receive radiofrequency coils. Relaxation is a three-dimensional process but can be divided into two main components, the relaxation along the B<sub>0</sub> field, called T1, and the relaxation perpendicular to the B<sub>0</sub> field, called T2. T1 and T2 have different rates depending on the tissue and provide contrast to the resultant MRI image.
+When the transmit radiofrequency coil is turned off, the protons will realign back to the static B<sub>0</sub> field in a process called "relaxation." During relaxation, protons emit some of the energy that was applied to them during the B<sub>1</sub> field pulse in the form of radio waves. These are picked up by receiver radiofrequency coils. Relaxation is a three-dimensional process but can be divided into two main components, the relaxation along the B<sub>0</sub> field, called T1, and the relaxation perpendicular to the B<sub>0</sub> field, called T2. T1 and T2 have different rates depending on the tissue and provide contrast to the resultant MRI image.
 
 ### Gradient Coils
 
