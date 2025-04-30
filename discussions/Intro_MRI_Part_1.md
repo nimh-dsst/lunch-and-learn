@@ -18,7 +18,7 @@ Another defining characteristic of the MRI scanner is the bore size, which is th
 
 The big magnet in the MRI scanner produces a magnetic field, called B<sub>0</sub>. The field is directed along the bore of the MRI scanner but can extend past the scanner. This is why the MRI scanner is placed in a containment area with warning signs about strong magnetic fields. The homogeneity of the field is important for producing uniform images. The B<sub>0</sub> field is adjusted when a subject is in the scanner to help promote homogeneity and limit image distortion.
 
-The purpose of the B<sub>0</sub> field is to align the protons, the nuclei of hydrogen atoms in the water contained in the body. Protons can be either aligned in an "up" or "down" configuration.
+The purpose of the B<sub>0</sub> field is to align the protons, the nuclei of Hydrogen atoms in water especially. Protons can be either aligned in an "up" or "down" spin.
 
 ### Radiofrequency Coils
 
