@@ -39,3 +39,7 @@ The spatially encoded signals must be converted from a representation of spatial
 ## Next Session
 
 In this write-up we covered how the signal is generated, by perturbing aligned protons in a subject's body, and how the spatial information is encoded using gradient coils. Next session, we will talk about these steps are used in sequences to generate MRI images and talk about functional MRI.
+
+## Suggested References
+
+- [MRI Physics for Radiologists: A Visual Approach](https://doi.org/10.1007/978-1-4612-0785-6) by Alfred L. Horowitz. NIH has access to the entire book via Springer.
