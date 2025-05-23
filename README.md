@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [MRI Crash Course, Part 3](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_3.md)
+
+In part 3 of the DSST MRI crash course, we cover the basics of BOLD and fMRI.
+
+#### 5/6/2025, attendance: 8
+
 ### [MRI Crash Course, Part 2](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_2.md)
 
 In this part of the DSST MRI crash course, we cover sequences and sources of artifacts in MRI images.
