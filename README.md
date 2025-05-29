@@ -44,6 +44,12 @@ DSST and friends discussed tips and tricks to designing, running, and monitoring
 
 #### 3/25/2025, attendance: 9
 
+### [Static Code Analysis](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/static_code_analysis.md)
+
+DSST and friends discussed the benefits and considerations of static code analysis in Python with a focus on Ruff.
+
+#### 3/18/2025, attendance: 8
+
 ### [Teaching and Learning Data Science](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/teaching_and_learning.md)
 
 #### 2/25/2025, attendance: 4
