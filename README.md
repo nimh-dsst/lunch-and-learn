@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [MRI Crash Course, Part 4](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_4.md)
+
+In DSST's fourth and final part of the MRI crash course, we cover the basics of image pre-processing for MRI and fMRI.
+
+#### 5/27/2025, attendance: 5
+
 ### [MRI Crash Course, Part 3](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_3.md)
 
 In part 3 of the DSST MRI crash course, we cover the basics of BOLD and fMRI.
