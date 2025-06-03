@@ -15,7 +15,7 @@
 
 ## Introduction
 
-In today's Lunch and Learn, we discussed static code analysis in Python, focusing on linting (flake8), autoformatting (black), import sorting (isort), and type checking (mypy). Many participants were introduced to static code analysis through tools set up by others, which can feel like magic incantations and be difficult to work with.
+In today's Lunch and Learn, we discussed static code analysis in Python, focusing on linting, autoformatting, import sorting, and type checking. Many participants were introduced to static code analysis through tools set up by others, which can feel like magic incantations and be difficult to work with.
 
 ### Pros
 
@@ -50,17 +50,14 @@ In today's Lunch and Learn, we discussed static code analysis in Python, focusin
 | Locally | Preventative check  | pre-commit     | Can be skipped  |
 | CI      | Validation check    | GitHub Actions | Can be enforced |
 
-### Examples
-
-- CI validation with GitHub Actions
-- Local checks with uv
-- Local checks with pre-commit
-
 ## Ruff
 
-- 3-in-1 tool: drop-in replacement for flake8, black, and isort
+- 3-in-1 tool for linting, formatting and import sorting
+  - Drop-in replacement for flake8, black, and isort
+  - Note it is not a type checker!
 - Super fast, written in Rust
 - Implements over 800 [rules](https://docs.astral.sh/ruff/rules/)
+  - Does not implement all Pylint rules (yet)
 
 ### Basic Usage
 
@@ -69,29 +66,14 @@ In today's Lunch and Learn, we discussed static code analysis in Python, focusin
 
 - A unified command for both is [planned](https://github.com/astral-sh/ruff/issues/8232).
 
-### Differences from Other Tools
-
-- Known [deviations](https://docs.astral.sh/ruff/formatter/black/) from Black
-- Doesn't currently implement all Pylint rules
-- Import sorting is similar to isort's profile = "black"
-- Formats f-strings
-- Differences in assert statements
-
-### Limitations
-
-- Not a type checker!
-- Not a full replacement for Pylint (yet)
-
 ## Configuration
 
-- For new projects, start with a basic config
-- Ruff config can be in `pyproject.toml` or s Ruff-specific `ruff.toml` config file
-  - Each tool has its own config style (e.g., Black uses only `pyproject.toml`, flake8 does not support it)
-- Ruff has different defaults than other tools
-- isort rules are not enabled by default
-- Most commonly changed settings are [line-length](https://docs.astral.sh/ruff/settings/#line-length) and [magic trailing comma](https://docs.astral.sh/ruff/settings/#format_skip-magic-trailing-comma)
-- Ruff does not implement flake8's complexity rule by default
+- For new projects, start with a basic configuration
+- Ruff configuration parameters can be specified in the `pyproject.toml` or in the Ruff-specific `ruff.toml` file.
+- By default Ruff does not enable the isort rules and flake8's complexity rule
 - Many users only enable Flake8's F rules and a subset of E rules, omitting stylistic rules that overlap with formatters
+- The most commonly changed settings are [line-length](https://docs.astral.sh/ruff/settings/#line-length) and [magic trailing comma](https://docs.astral.sh/ruff/settings/#format_skip-magic-trailing-comma)
+- Note Ruff has different defaults than other tools
 - Ruff checks and formats Jupyter notebooks by default ([more info](https://docs.astral.sh/ruff/faq/#does-ruff-support-jupyter-notebooks))
 
 ### Replicating Black Style
@@ -101,6 +83,10 @@ In today's Lunch and Learn, we discussed static code analysis in Python, focusin
 - Indent with spaces
 - Line length 88
 - Autodetect end of line
+- Known [deviations](https://docs.astral.sh/ruff/formatter/black/) from Black
+  - Formats f-strings
+  - Differences in assert statements
+- Configure import sorting with `profile = "black"` to replicate isort's behavior.
 
 ## Tips
 
@@ -109,7 +95,7 @@ In today's Lunch and Learn, we discussed static code analysis in Python, focusin
   - Long-running checks are better in CI, not pre-commit
 - Pin dev tool versions to avoid unexpected CI/setup failures
   - Ruff uses a custom versioning scheme: minor = breaking, patch = bug fixes. No stable API yet. Once Ruff's API is stable, the major version number and semantic versioning will be used.
-- Start with default config
+- Start with the default config
 - Be mindful of which files are included in checks
 
 ## Tutorial Repo Coming Soon
