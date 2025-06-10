@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [PyCon US 2025](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/pycon_2025.md)
+
+Jeff attended PyCon US 2025 in Pittsburgh and was kind enough to share his experience and highlights from some of the talks.
+
+#### 6/10/2025, attendance: 7
+
 ### [MRI Crash Course, Part 4](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_4.md)
 
 In DSST's fourth and final part of the MRI crash course, we cover the basics of image pre-processing for MRI and fMRI.
