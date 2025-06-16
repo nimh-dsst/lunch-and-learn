@@ -14,6 +14,12 @@ Jeff attended PyCon US 2025 in Pittsburgh and was kind enough to share his exper
 
 #### 6/10/2025, attendance: 7
 
+### [Centralization of Resources](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/centralization.md)
+
+DSST members and friends discussed the impacts of centralization of LLMs and compute resources.
+
+#### 6/3/2025, attendance: 5
+
 ### [MRI Crash Course, Part 4](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/Intro_MRI_Part_4.md)
 
 In DSST's fourth and final part of the MRI crash course, we cover the basics of image pre-processing for MRI and fMRI.
