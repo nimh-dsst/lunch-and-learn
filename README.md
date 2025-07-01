@@ -8,6 +8,18 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### Farewell Lunch and Learn for Mia
+
+DSST members and friends said a fond farewell to our IRTA @MIZwally
+
+#### 7/1/2025, attendance: 6
+
+### Generative AI Casual Discussion
+
+DSST members and friends discussed safe usage of generative AI
+
+#### 6/24/2025, attendance: 4
+
 ### [FAIR Jupyter Notebooks](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/fair_jupyter_notebooks.md)
 
 DSST members and friends discussed how to make Jupyter notebookd more F.A.I.R. by making them interoperable and reusable.
