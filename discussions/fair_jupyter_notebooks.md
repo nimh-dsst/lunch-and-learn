@@ -62,8 +62,6 @@ Need to use Jupyter for something other than Python? Consider [mamba/micromamba]
 mamba env export > environment.yml
 ```
 
-that conda-lock.yml using [conda-lock](https://conda.github.io/conda-lock/)!
-
 ### Discussion
 
 Jupyter notebooks are great for
