@@ -8,6 +8,12 @@ Sign up with your email [here](https://list.nih.gov/cgi-bin/wa.exe?SUBED1=DSST-L
 
 ## Discussions
 
+### [Future Topics of Lunch and Learn](https://github.com/nimh-dsst/lunch-and-learn/blob/main/discussions/lunch_and_learn_meta_discussion.md)
+
+DSST members and friends brainstormed for upcoming lunch and learn topics
+
+#### 8/5/2025, attendance: 6
+
 ### Farewell Lunch and Learn for Mia
 
 DSST members and friends said a fond farewell to our IRTA @MIZwally
@@ -123,6 +129,16 @@ DSST and friends discussed aliases commonly used in shell RC files when using bi
 DSST and friends discussed which IDEs were commonly used. Other topics included the [Pandas query](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html) method, interest in the [polars python](https://pola.rs/) library, and a discussion on documentation tools like [ReadTheDocs](https://about.readthedocs.com/) (which can use [mkdocs](https://www.mkdocs.org/) or [sphinx](https://www.sphinx-doc.org/en/master/#) under the hood) and [Jupyter Book](https://jupyterbook.org/en/stable/intro.html).
 
 ## Presentations
+
+### [Introduction to Light Microscopy](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/Intro%20To%20Light%20Microscopy%20Resolution)
+
+@joshlawrimore gave a presentation on resolution and discussed the 2014 Nobel Prize in Chemistry for breaking the resolution limit.
+
+### [Tissue Clearing](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/Tissue%20Clearing)
+
+Presentation on making sample tissue transparent using tissue clearing culminating in the publication ["Achieving optical transparency in live animals with absorbing molecules."](https://doi.org/10.1126/science.adm6869).
+
+#### 7/29/2025, attendance: 6
 
 ### [Building an Natural Language Query Agent](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/Natural_Language_Query_Agent)
 
