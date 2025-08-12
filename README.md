@@ -134,6 +134,8 @@ DSST and friends discussed which IDEs were commonly used. Other topics included 
 
 @joshlawrimore gave a presentation on resolution and discussed the 2014 Nobel Prize in Chemistry for breaking the resolution limit.
 
+#### 8/12/2025, attendance: 10
+
 ### [Tissue Clearing](https://github.com/nimh-dsst/lunch-and-learn/tree/main/presentations/Tissue%20Clearing)
 
 Presentation on making sample tissue transparent using tissue clearing culminating in the publication ["Achieving optical transparency in live animals with absorbing molecules."](https://doi.org/10.1126/science.adm6869).
